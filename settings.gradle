@@ -1,4 +1,4 @@
-rootProject.name = 'DistributionSystemsTask'
+rootProject.name = 'dist-systems-task'
 include 'common-lib'
 include 'first-service'
 include 'second-service'
