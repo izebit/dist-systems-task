@@ -1,0 +1,8 @@
+plugins {
+    id 'application'
+}
+
+application {
+    mainClass = 'ru.izebit.first_service.ApplicationLauncher'
+}
+

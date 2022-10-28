@@ -1,0 +1,4 @@
+rootProject.name = 'DistributionSystemsTask'
+include 'first-service'
+include 'second-service'
+
