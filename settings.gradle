@@ -1,4 +1,5 @@
 rootProject.name = 'DistributionSystemsTask'
+include 'common-lib'
 include 'first-service'
 include 'second-service'
 

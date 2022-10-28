@@ -1,8 +1,21 @@
 package ru.izebit.second_service;
 
+import lombok.AllArgsConstructor;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-public class ApplicationLauncher {
+@SpringBootApplication
+@AllArgsConstructor
+public class ApplicationLauncher implements CommandLineRunner {
+    private final ReplayService replayService;
+
     public static void main(String[] args) {
+        SpringApplication.run(ApplicationLauncher.class, args);
+    }
 
+    @Override
+    public void run(final String... args) {
+        replayService.replay();
     }
 }
